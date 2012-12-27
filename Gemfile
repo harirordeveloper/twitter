@@ -6,7 +6,7 @@ gem 'rails', '3.2.9'
 
 group :development do
   gem 'mysql2'
-  gem 'jquery-rails'
+ 
   gem 'libv8', '~> 3.11.8'
   gem 'therubyracer'
   gem 'execjs'
@@ -17,7 +17,7 @@ group :test do
 end
 
 group :production do
-  
+   gem 'pg', '0.12.2'
 end
 
 group :assets do
@@ -27,4 +27,4 @@ group :assets do
 end
 
 
-
+ gem 'jquery-rails'
